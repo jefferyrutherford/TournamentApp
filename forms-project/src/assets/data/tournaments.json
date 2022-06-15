@@ -1,0 +1,15 @@
+{
+
+   "Tournaments": [
+    {
+        "_id": "12345",
+        "organizer": "spawnki11er7",
+        "game": "fortnight"
+    },
+    {
+        "_id": "1111",
+        "organizer": "soulbren",
+        "game": "minecraft"
+    }
+   ]
+}
