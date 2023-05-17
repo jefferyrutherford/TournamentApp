@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { TournamentSignUpComponent } from './tournament-sign-up/tournament-sign-up.component';
 import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { UpcommingTComponent } from './upcomming-t/upcomming-t.component';
-
+import { HttpClientModule } from '@angular/common/http'
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +18,8 @@ import { UpcommingTComponent } from './upcomming-t/upcomming-t.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    ReactiveFormsModule
+    ReactiveFormsModule, 
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
